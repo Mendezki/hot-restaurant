@@ -1,6 +1,6 @@
 # hot-restaurant
--.gitignore
--package.jason
--server.js
--html files
--da- arrays
+-.gitignore ✓
+-package.json ✓
+-server.js ✓
+-public folder with html files ✓
+-data -arrays
