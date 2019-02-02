@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Mendezki/hot-restaurant/issues"
   },
-  "homepage": "https://github.com/Mendezki/hot-restaurant#readme"
+  "homepage": "https://github.com/Mendezki/hot-restaurant#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
