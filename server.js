@@ -35,7 +35,7 @@ var reservations = [
 
 ///////////////////////////
 
-app.get("/", function(req, res) {
+app.get("/public", function(req, res) {
   res.sendFile(path.join(___dirname, "home.html"));
 });
 
