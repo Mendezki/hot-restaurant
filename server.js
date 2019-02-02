@@ -4,7 +4,6 @@ var path = require("path");
 var app = express();
 var PORT = 3000;
 
-
 app.use(express.urlencoded({ extended : true }));
 app.use(express.json());
 
@@ -12,19 +11,21 @@ app.get("/", function(req, res) {
     res.sendFile(path.join(___dirname, "home.html"));
 });
 
-app.get("/tables", function(req, res) {
+app.get("/public/tables", function(req, res) {
     res.sendFile(path.join(___dirname, "tables.html"));
 });
 
-app.get("/reservations", function(req, res) {
+app.get("/public/reservations", function(req, res) {
     res.sendFile(path.join(___dirname, "reservations.html"));
 });
 
-var server = http.createServer(handleRequest);
-function handleRequest(req, res) {
-    var path = req.url;
-} 
+app.get("/api/tables", function(req, res) {
+    res.json(tableData);
+});
 
-server.listen(PORT, function() {
+app.post("/api/tables", function(req, res) {
+});
+
+app.listen(PORT, function() {
     console.log("Server is listening on PORT: " + PORT);
 })
