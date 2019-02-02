@@ -1,0 +1,19 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "hot-restaurant",
+  "main": "hr.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mendezki",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mendezki/hot-restaurant.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Mendezki/hot-restaurant/issues"
+  },
+  "homepage": "https://github.com/Mendezki/hot-restaurant#readme"
+}
